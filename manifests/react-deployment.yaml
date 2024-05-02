@@ -11,9 +11,9 @@ spec:
     metadata:
       labels:
         app: reactcicd
-#    spec:
-#      containers:
-#        - name: reactcicd
-#          image: ashram939/reactcicd:ba3f48b857b12ca8bcd682db320398e1e8f16a40
-#          ports:
-#            - containerPort: 80
+    spec:
+      containers:
+        - name: reactcicd
+          image: ashram939/reactcicd:ba3f48b857b12ca8bcd682db320398e1e8f16a40
+          ports:
+            - containerPort: 80
